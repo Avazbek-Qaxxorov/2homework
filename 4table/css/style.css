@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+table {
+    
+    text-transform: capitalize;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+td {
+    padding: 25px 50px;
+}
+thead > tr:nth-child(1) {
+    color: #fff;
+    background-color: #039166;
+}
+tbody > tr:nth-child(1) {
+    color: #222;
+    background-color: #fff;
+}
+tbody > tr:nth-child(2) {
+    color:#039166;
+}
+tbody > tr:nth-child(3) {
+    color: #222;
+    background-color: rgb(187, 179, 179);
+}
+tbody  {
+    color: #039166;
+    border-bottom: 1px solid #039166;
+}

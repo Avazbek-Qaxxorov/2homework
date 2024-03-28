@@ -1,0 +1,20 @@
+table {
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 22px;
+    border: 1px solid #222;
+}
+thead {
+
+    text-transform: capitalize;
+}
+
+th {
+   border: 1px solid #222;
+}
+.table-wrapper {
+    background-color: rgb(80, 150, 221);
+}
+.table-title {
+    background-color: rgb(223, 223, 10);
+}
